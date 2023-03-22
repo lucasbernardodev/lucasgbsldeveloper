@@ -1,0 +1,33 @@
+.links .subtitulo {
+  max-width: 1200px;
+  padding: 0px 20px 40px 20px;
+  margin: 0 auto;
+  font-size: 3.75rem;
+  color: #800add;
+  text-align: center;
+}
+
+.links .subtitulo h2 {
+  padding: 20px;
+}
+
+.links .subtitulo a {
+  text-decoration: none;
+  color: #800add;
+  padding: 20px;
+  transition: 0.4s;
+}
+
+.links .subtitulo a:hover {
+  color: #b6f829;
+  animation: animacaohover 0.4s ease-in-out;
+}
+
+@keyframes animacaohover {
+  0% {
+    color: #800add;
+  }
+  100% {
+    color: #b6f829;
+  }
+}
