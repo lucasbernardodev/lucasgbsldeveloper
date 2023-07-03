@@ -32,6 +32,14 @@
     color: #525252;
 }
 
+.container-imagem img {
+    margin-top: 15px;
+    max-width: 35px;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+}
+
 @media (max-width: 1000px) {
     .introducao h1 {
         font-size: 3rem;
